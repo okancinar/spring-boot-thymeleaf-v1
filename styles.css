@@ -70,6 +70,7 @@ table {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
 }
 
 th, td {
@@ -156,6 +157,8 @@ h1 {
 .employee-table {
     width: 100%;
     border-collapse: collapse;
+    position: relative;
+    
 }
 
 .employee-table th, .employee-table td {
@@ -178,6 +181,11 @@ h1 {
     background-color: #218838;
 }
 /* Dropdown Button */
+    .dropdown {
+		position: relative;
+	}
+	
+
     .dropbtn {
         background-color: #4CAF50;
         color: white;
@@ -199,7 +207,8 @@ h1 {
         background-color: #f9f9f9;
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1000;
+        z-index: 9999;
+        
     }
 
     /* Links inside the dropdown */
